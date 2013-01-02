@@ -1,0 +1,543 @@
+#forums {
+	width: 100%;
+	margin: 0 auto;
+	height: 100%;
+	font-size: 0.80em;
+}
+
+#forumsInfo {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-bottom: 2px ridge #000;
+}
+
+#forumsInfo caption {
+	height: 40px;
+	line-height: 40px;
+	color: #fff;
+	background-color: #439DD3;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#forumsInfo th {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 0.9em;
+	height: 30px;
+	line-height: 30px;
+}
+
+#forumsInfo tr.rows {
+	height: 45px;
+}
+
+.odd {
+	background-color: #eee;
+	color: #000;
+}
+
+.even {
+	background-color: #fff;
+	color: #000;
+}
+
+.first {
+	width: 45%;
+	padding-left: 5px;
+	text-align: justify;
+} 
+
+.second {
+	width: 30%;
+	text-align: center;
+}
+
+.third {
+	width: 8%;
+	text-align: center;
+}
+
+.fourth {
+	width: 8%;
+	text-align: center;
+}
+
+.fifth {
+	width: 9%;
+	text-align: center;
+}
+
+.forumTitle a:link {
+	text-decoration: none;
+	color: #000;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+
+.forumTitle a:visited {
+	color: #444;
+	font-weight: 400;
+}
+
+.forumTitle a:hover {
+	color: #439DD3;
+}
+
+.forumDesc {
+	font-size: 0.8em;
+}
+
+.forumDesc a {
+	text-decoration: none;
+	color: #439DD3;
+	font-size: 1em;
+}
+
+.forumTitle2 a {
+	text-decoration: none;
+	color: #000;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+
+.forumTitle2 a:hover {
+	color: #439DD3;
+}
+
+.postAuthor {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.postAuthor a {
+	text-decoration: none;
+	color: #439DD3;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.postDate {
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.noTopics {
+	text-align: center;
+}
+
+.noTopics a {
+	text-decoration: none;
+	color: #439DD3;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.noTopics a:hover {
+	color: #34B1FC;
+}
+
+.actions {
+	width: 1000px;
+	margin: 0 auto;
+	font-size: 0.8em;
+	background-color: #333;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 45px;
+	line-height: 45px;
+	text-align: right;
+	color: #FFF;
+}
+
+.checkTwitter { 
+	text-align: center;
+	color: #000;
+	font-size: 0.8em;
+}
+
+p.welcome {
+	margin-left: 5px;
+	margin-top: 3px;
+	font-size: 1em;
+}
+
+.welcome a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.welcome a:hover {
+	color: #15608D;
+}
+
+.options {
+	float: right;
+	margin-top: -27px;
+	margin-right: 5px;
+	font-size: 1.2em;
+}
+
+.options ul li {
+	list-style: none;
+	float: left;
+	margin-left: 10px;
+}
+
+.options ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.options ul li a:hover {
+	color: #15608D;
+}
+
+.options li.main {
+	color: #15608D;
+	font-weight: bold;
+}
+
+.little {
+	font-size: 0.8em;
+}
+
+.newTopic {
+	font-size: 1em;
+	width: 571px;
+	margin: 0 auto;
+}
+
+#formNewTopic legend {
+	color: #439DD3;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#formNewTopic .input {
+	width: 570px;
+	height: 30px;
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+#formNewTopic #editor {
+	width: 570px;
+	height: 300px;
+	font-weight: bold;
+}
+
+#formNewTopic .button {
+	height: 40px;
+	width: 283px;
+	font-size: 0.9em;
+	border: none;
+	cursor: pointer;
+}
+
+#formNewTopic .button:hover {
+	background-color: #FC9F0D;
+}
+
+.field {
+	font-size: 0.8em;
+	text-align: left;
+	color: #000;
+}
+
+.alert {
+	margin-top: 10px;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.good {
+	color: #439DD3;
+}
+
+.bad {
+	color: #D94A38;
+}
+
+.additional {
+	font-size: 0.7em;
+	text-align: center;
+	color: #7F7F7F;
+}
+
+.additional a {
+	font-size: 0.9em;
+	text-align: center;
+	color: #7F7F7F;
+}
+
+#wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	margin-top: -10px;
+	height: 100%;
+	font-size: 0.75em;
+}
+
+#topic {
+	width: 100%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+.caption {
+	height: 10px;
+	line-height: 10px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: #1677A2;
+	color: #fff;
+	padding-top: 10px;
+	text-indent: 10px;
+}
+
+.space {
+	height: 3px;
+}
+
+.profile {
+	background-color: #439DD3;
+}
+
+.profile img {
+	margin: 5px 5px;
+	float: left;
+}
+
+.userinfo {
+	float: left;
+	font-size: 1.2em;
+	margin-top: -10px;
+	color: #FFF;
+}	
+
+.userinfo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.userinfo a:hover {
+	text-decoration: underline;
+}
+
+.userinfo p {
+	font-size: 0.9em;
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+
+.topicInfo {
+	background-color: #1677A2;
+	float: left;
+	width: 630px;
+	margin-top: -35px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+.topicInfo p {
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-align: justify;
+}
+
+.dateTopic {
+	float: right;
+	margin-right: 12px;
+	font-size: 1.1em;
+	margin-top: -15px;
+}
+
+.topicInfo2 { 
+	float: right;
+	width: 250px;
+	margin-right: 12px;
+	font-size: 1.1em;
+	margin-top: -10px;
+	text-align: right;
+}
+
+.topicInfo2 p {
+	margin: 0px;
+	margin-bottom: 2px;
+}
+
+.topicContent {
+	background-color: #EEECEC;
+}
+
+.topicContent ul, ol {
+	margin: 0;
+}
+
+.topicContent blockquote {
+	margin: 0;
+	margin-left: 25px;
+	border: 1px dotted #333;
+	background-color: #FFF;
+	padding: 5px;
+	width: 90%;
+}
+
+.topicData {
+	margin-left: 5px;
+	margin-right: 5px;
+	text-align: justify;
+}
+
+.sign {
+	border-top: 1px solid #ccc;
+	padding-top: 5px;
+	margin-top: 20px;
+}
+
+.actionsTopic {
+	background-color: #7F7F7F;
+	height: 20px;
+	line-height: 20px;
+}
+
+.actionsTopic ul {
+	margin: 0px;
+	padding: 0px;
+	margin-right: 5px;
+	float: right;
+	list-style: none;
+}
+
+.actionsTopic ul li {
+	float: left;
+	margin-left: 7px;
+}
+
+.actionsTopic ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+.actionsTopic ul li a:hover {
+	text-decoration: underline;
+}
+
+.pagination {
+	margin-top: 5px;
+	width: 600px;
+	float: right;
+	margin-bottom: 15px;
+}
+
+.pagination2 {
+	margin-top: 15px;
+	width: 600px;
+	float: right;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+
+#pagination {
+	font-size:  13px;
+	text-align:  right;
+	padding: 0px;
+	background-color:  #fff;
+	color:  #313031;
+}
+
+#pagination a {
+	color:  #0030ce;
+	text-decoration:  none;
+	padding:  5px 6px 4px 5px;
+	margin:  0 3px 0 3px;
+	border:  1px solid #b7d8ee;
+}
+
+#pagination a:hover, #pagination a: active {
+	color:  #0066a7;
+	border:  1px solid #b7d8ee;
+	background-color:  #d2eaf6;
+}
+
+#pagination span.current {
+	padding:  5px 6px 4px 5px;
+	margin:  0 3px 0 3px;
+	border:  1px solid #b7d8ee;
+	font-weight:  bold;
+	color:  #444444;
+	background-color:  #d2eaf6;
+}
+
+#pagination span.disabled {
+	display:  none;
+}
+
+.twitterButton {
+	width: 152px;
+	float: right;
+	margin-right: 7px;
+}
+
+.actionbutton {
+	text-decoration: none;
+	border-radius: 3px;
+	width: 25px;
+	float: left;
+	margin-left: 9px;
+	height: 20px;
+	padding-top: 5px;
+	background-color: #999;
+}
+
+.actionbutton2 {
+	text-decoration: none;
+	border-radius: 3px;
+	width: 25px;
+	float: left;
+	margin-left: 9px;
+	height: 20px;
+	padding-top: 5px;
+	background-color: #999;
+}
+
+.hide {
+	display: none;
+}
+
+.actionbutton:hover {
+	cursor: pointer;
+	background-color: #3A98D2;
+}
+
+.actionbutton2:hover {
+	cursor: pointer;
+	background-color: #FFFFFF;
+	background-color: #FFFFFF;
+}
+
+.actionbtns { 
+	float: right;
+	margin-top: 47px;
+	margin-right: -185px;
+}
+
+.actionbtns2 { 
+	float: right;
+	margin-top: 52px;
+	margin-right: -556px;
+}
+
+header #wrapper nav ul li a {
+    font-size: 1.3em;
+}
